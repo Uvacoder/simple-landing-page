@@ -1,187 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <!-- Metas -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <!-- Title Document -->
-  <title>FCC: Build a Product Landing Page</title>
-
-  <!-- Style -->
-  <link rel="stylesheet" href="styles/index.css" />
-</head>
-
-<body>
-  <!-- Header -->
-  <header id="header">
-    <!-- Logo -->
-    <a href="#">
-      <img src="images/header-img.png" alt="Logo" id="header-ing" />
-    </a>
-
-    <!-- Nav -->
-    <nav id="nav-bar">
-      <ul>
-        <!-- Link -->
-        <li>
-          <a href="#features" class="nav-link">Features</a>
-        </li>
-
-        <!-- Link -->
-        <li>
-          <a href="how-it-work" class="nav-link">How it Works</a>
-        </li>
-
-        <!-- Link -->
-        <li>
-          <a href="pricing" class="nav-link">Pricing</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <!-- Hero Title -->
-    <h2>Handcrafted, home-made masterpieces</h2>
-
-    <!-- Form -->
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-      <!-- Email Input -->
-      <input type="email" name="email" id="email" placeholder="Enter your email..." required />
-
-      <!-- Button -->
-      <input class="btn" type="submit" value="Get Started" />
-    </form>
-  </section>
-
-  <!-- Features -->
-  <section id="features">
-    <!-- Feature #1 -->
-    <div class="feature">
-      <!-- Icon -->
-      <div class="feature-icon">
-        <i></i>
-      </div>
-
-      <!-- Description -->
-      <div class="feature-desciption">
-        <h2>Premium Materials</h2>
-        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
-          purchase.</p>
-      </div>
+  <head>
+    <!-- Metas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title Document -->
+    <title>FCC: Build a Product Landing Page</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- Container -->
+    <div class="container">
+      <!-- Header -->
+      <header id="header">
+        <!-- Logo -->
+        <a href="#" id="logo">
+          <!-- Logo SVG -->
+          <img
+            src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+            alt=""
+            id="header-img"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="header-img"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="6" cy="17" r="3"></circle>
+            <circle cx="16" cy="17" r="3"></circle>
+            <polyline points="9 17 9 4 19 4 19 17"></polyline>
+            <line x1="9" y1="8" x2="19" y2="8"></line>
+          </svg>
+          <!-- Logo Text -->
+          <p>Original Trombones</p>
+        </a>
+        <!-- Nav -->
+        <nav id="nav-bar">
+          <ul>
+            <!-- Link -->
+            <li>
+              <a href="#features" class="nav-link">Features</a>
+            </li>
+            <!-- Link -->
+            <li>
+              <a href="#how-it-works" class="nav-link">How it Works</a>
+            </li>
+            <!-- Link -->
+            <li>
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Hero -->
+      <section id="hero">
+        <!-- Hero Title -->
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <!-- Form -->
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <!-- Email Input -->
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email..."
+            required
+          />
+          <!-- Button -->
+          <input id="submit" class="btn" type="submit" value="Get Started" />
+        </form>
+      </section>
+      <!-- Divider -->
+      <div class="divider"></div>
+      <!-- Features -->
+      <section id="features">
+        <!-- Feature #1 -->
+        <div class="feature">
+          <!-- Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="feature-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M12 12c2 -2.96 0 -7 -1 -8c0 3.038 -1.773 4.741 -3 6c-1.226 1.26 -2 3.24 -2 5a6 6 0 1 0 12 0c0 -1.532 -1.056 -3.94 -2 -5c-1.786 3 -2.791 3 -4 2z"
+            ></path>
+          </svg>
+          <!-- Description -->
+          <div class="feature-description">
+            <h2>Premium Materials</h2>
+            <p>
+              Our trombones use the shiniest brass which is sourced locally.
+              This will increase the longevity of your purchase.
+            </p>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider"></div>
+        <!-- Feature #2 -->
+        <div class="feature">
+          <!-- Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="feature-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <circle cx="7" cy="17" r="2"></circle>
+            <circle cx="17" cy="17" r="2"></circle>
+            <path
+              d="M5 17h-2v-4m-1 -8h11v12m-4 0h6m4 0h2v-6h-8m0 -5h5l3 5"
+            ></path>
+            <line x1="3" y1="9" x2="7" y2="9"></line>
+          </svg>
+          <!-- Description -->
+          <div class="feature-description">
+            <h2>Fast Shipping</h2>
+            <p>
+              We make sure you recieve your trombone as soon as we have finished
+              making it. We also provide free returns if you are not satisfied.
+            </p>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider"></div>
+        <!-- Feature #3 -->
+        <div class="feature">
+          <!-- Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="feature-icon"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path
+              d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"
+            ></path>
+          </svg>
+          <!-- Description -->
+          <div class="feature-description">
+            <h2>Quality Assurance</h2>
+            <p>
+              For every purchase you make, we will ensure there are no damages
+              or faults and we will check and test the pitch of your instrument.
+            </p>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div class="divider"></div>
+      </section>
+      <!-- Hot it Works -->
+      <section id="how-it-works">
+        <iframe
+          id="video"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- Divider -->
+      <div class="divider"></div>
+      <!-- Pricing -->
+      <section id="pricing">
+        <!-- Product #1 -->
+        <div class="product">
+          <!-- Product Level -->
+          <h2>Tenor Trombone</h2>
+          <!-- Feature List -->
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <!-- Button -->
+          <button class="btn">Buy for $600</button>
+        </div>
+        <!-- Product #2 -->
+        <div class="product">
+          <!-- Product Level -->
+          <h2>Bass Trombone</h2>
+          <!-- Feature List -->
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <!-- Button -->
+          <button class="btn">Buy for $900</button>
+        </div>
+        <!-- Product #3 -->
+        <div class="product">
+          <!-- Product Level -->
+          <h2>Valve Trombone</h2>
+          <!-- Feature List -->
+          <ul>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum.</li>
+            <li>Lorem ipsum dolor.</li>
+            <li>Lorem ipsum.</li>
+          </ul>
+          <!-- Button -->
+          <button class="btn">Buy for $1200</button>
+        </div>
+      </section>
     </div>
-
-    <!-- Feature #2 -->
-    <div class="feature">
-      <!-- Icon -->
-      <div class="feature-icon">
-        <i></i>
-      </div>
-
-      <!-- Description -->
-      <div class="feature-desciption">
-        <h2>Fast Shipping</h2>
-        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
-          you are not satisfied.</p>
-      </div>
-    </div>
-
-    <!-- Feature #3 -->
-    <div class="feature">
-      <!-- Icon -->
-      <div class="feature-icon">
-        <i></i>
-      </div>
-
-      <!-- Description -->
-      <div class="feature-desciption">
-        <h2>Quality Assurance</h2>
-        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the
-          pitch of your instrument.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Hot it Works -->
-  <section id="how-it-works">
-    <iframe id="video" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&controls=0&showinfo=0"></iframe>
-  </section>
-
-  <!-- Pricing -->
-  <section id="pricing">
-    <!-- Product #1 -->
-    <div class="product">
-      <!-- Product Level -->
-      <h2>Tenor Trombone</h2>
-
-      <!-- Price -->
-      <p class="price">600</p>
-
-      <!-- Feature List -->
-      <ul>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ul>
-
-      <!-- Button -->
-      <button class="btn">Select</button>
-    </div>
-
-    <!-- Product #2 -->
-    <div class="product">
-      <!-- Product Level -->
-      <h2>Bass Trombone</h2>
-
-      <!-- Price -->
-      <p class="price">900</p>
-
-      <!-- Feature List -->
-      <ul>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ul>
-
-      <!-- Button -->
-      <button class="btn">Select</button>
-    </div>
-
-    <!-- Product #3 -->
-    <div class="product">
-      <!-- Product Level -->
-      <h2>Valve Trombone</h2>
-
-      <!-- Price -->
-      <p class="price">1200</p>
-
-      <!-- Feature List -->
-      <ul>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum.</li>
-        <li>Lorem ipsum dolor.</li>
-        <li>Lorem ipsum.</li>
-      </ul>
-
-      <!-- Button -->
-      <button class="btn">Select</button>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="footer">
-    <!-- Left -->
-    <div></div>
-
-    <!-- Right -->
-    <div></div>
-  </footer>
-</body>
-
+    <!-- Footer -->
+    <footer>
+      Make by
+      <a href="https://github.com/alexperronnet" target="_blank"
+        >@alexperronnet</a
+      >
+      for
+      <a href="https://www.freecodecamp.org/" target="_blank">@freeCodeCamp</a>
+    </footer>
+  </body>
 </html>
