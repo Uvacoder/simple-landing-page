@@ -33,7 +33,7 @@ Build an app that is functionally similar to [https://product-landing-page.freec
 
 ## Demo
 
-For a demo, check out [https://alexperronnet.github.io/FCC-Product-Landing-Page/](https://alexperronnet.github.io/FCC-Product-Landing-Page/)
+For a demo, check out [https://ap-fcc-product-landing-page.netlify.app](https://ap-fcc-product-landing-page.netlify.app)
 
 ## Screenshot
 
