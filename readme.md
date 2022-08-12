@@ -33,7 +33,7 @@ Build an app that is functionally similar to [https://product-landing-page.freec
 
 ## Demo
 
-For a demo, check out [https://alexperronnet.github.io/freecodecamp-product-landing-page/](https://alexperronnet.github.io/freecodecamp-product-landing-page/)
+For a demo, check out [freecodecamp-product-landing-page](https://alexperronnet.github.io/freecodecamp-product-landing-page/)
 
 ## Screenshot
 
